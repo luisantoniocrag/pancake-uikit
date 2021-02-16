@@ -11,7 +11,7 @@ export const Default: React.FC = () => {
 
   return (
     <div style={{ padding: "32px" }}>
-      <pre>{JSON.stringify(state, null, 2)}</pre>
+      <pre>{JSON.stringify(state, null, 4)}</pre>
     </div>
   );
 };
